@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+      font-family: "Open Sans", sans-serif;
+}
+
+
+  
+
+.container {
+    width: 71%;
+    max-width: 1182px; 
+    padding: 100%;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.logo h2 {
+  font-size: 34px;
+
+}
+
+.nav_items li {
+ list-style: none;
+ 
+}
+
+
+.nav_items ul {
+ list-style: none;
+ display: flex;
+ gap: 32px;
+ align-items: center;
+}
+
+
+.nav_items a {
+ text-decoration: none;
+ color: #000000;
+}
+
+.hero_section{
+    background: url("./assets/hero-bg.png");
+    width: 100%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 674px;
+}
+
+.banner_content {
+  width: 770px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner_content h1 {
+  font-size: 72px;
+  font-weight:700px;
+  color: #fff;
+}
+
+.banner_content span {
+    color: #30B868;
+
+}
+
+.banner_content p{
+ color: #fff;
+ font-weight: normal;
+ font-size: 18px;
+ margin-top: 16px;
+
+}
+
+.btn {
+    background-color: #30B868;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: Semi bold;
+    color: white;
+
+}
