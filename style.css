@@ -21,6 +21,8 @@ body{
     padding: 0px 20px;
     border: 1px solid red;
     margin: 0px auto;
+    
+  
 }
     
 .navbar {
@@ -28,8 +30,10 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-
+    /* width: 100%; */
 }
+
+
 
 .logo h2 {
   font-size: 34px;
@@ -38,6 +42,9 @@ body{
 
 .nav_items li {
  list-style: none;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
  
  
 }
@@ -384,6 +391,7 @@ ul {
 align-items: center;
 justify-content: center;
 margin-bottom: 16px;
+
 
 
 }
