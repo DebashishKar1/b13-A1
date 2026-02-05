@@ -39,6 +39,12 @@ body{
 .nav_items li {
  list-style: none;
  
+ 
+}
+
+.nav_items ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -432,3 +438,8 @@ background-color: rgba(0, 25, 49, 1)
     
 }
 
+
+.footer_image {
+  height: 50px;
+
+}
