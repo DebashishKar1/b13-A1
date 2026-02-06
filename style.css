@@ -75,7 +75,26 @@ body{
  justify-content: center;
  margin-bottom: 16px;
 
+
+ 
+.hover effect-
+  padding: 12px 24px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 16px;
 }
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(34, 197, 94, 0.35);
+  
+}
+
 
 .hero_section{
     background: url("./assets/hero-bg.png");
@@ -469,3 +488,5 @@ background-color: rgba(0, 25, 49, 1)
   height: 50px;
 
 }
+
+
